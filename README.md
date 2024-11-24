@@ -11,9 +11,16 @@ dependencies {
 
 For read assets, use next code:
 ```java
-Assets.from(context).asset("asset-name").read();
+Assets
+  .from(context).
+  asset("asset-name").
+  read();
 ```
 For copy file to your dir, use it:
 ```java
-Assets.from(context).asset("asset-name").toPath("you/path").copy();
+Assets
+  .from(context)
+  .asset("asset-name")
+  .toPath("you/path")
+  .copy();
 ```
