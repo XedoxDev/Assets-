@@ -10,7 +10,7 @@ dependencies {
 ```
 Or
 ```gradle
-dimplementation fileTree(dir: 'libs', include: ['*.jar', '*.aar']) 
+implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar']) 
 ```
 2. Add lib in dependencies with jitpack.io. add in settings.gradle, in dependencyResolutionManagement in repositories:
 ```gradle
