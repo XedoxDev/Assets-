@@ -8,6 +8,11 @@ dependencies {
   implementation files("libs/Assetspp-v$[version]-by-Xedox")
 }
 ```
+Or
+```groovy
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar']) 
+}```
 
 For read assets, use next code:
 ```java
