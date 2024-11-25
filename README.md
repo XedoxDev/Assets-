@@ -3,7 +3,7 @@ Helper lib on android for simpled work with assets.
 
 # how use
 Download latest verison lib in releases, move file to app/libs and add this file in dependencies in build.gradle:
-```groovy
+```gradle
 dependencies {
   implementation files("libs/Assetspp-v$[version]-by-Xedox")
 }
@@ -11,7 +11,7 @@ dependencies {
 
 Or
 
-```groovy
+```gradle
 dependencies {
   implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar']) 
 }
