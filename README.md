@@ -10,9 +10,7 @@ dependencies {
 ```
 Or
 ```gradle
-dependencies {
-  implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar']) 
-}
+dimplementation fileTree(dir: 'libs', include: ['*.jar', '*.aar']) 
 ```
 2. Add lib in dependencies with jitpack.io. add in settings.gradle, in dependencyResolutionManagement in repositories:
 ```gradle
@@ -21,7 +19,6 @@ maven { url 'https://jitpack.io' }
 And add its to app/build.gradle dependencies:
 ```gradle
 implementation 'com.github.XedoxDev:Assets_pp:version'
-	}
 ```
 # How use
 For read assets, use next code:
