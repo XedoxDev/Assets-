@@ -26,7 +26,7 @@ For read assets, use next code:
 Assets
   .from(context)
   .asset("asset-name")
-  .read();
+  .readAsset();
 ```
 For copy file to your dir, use it:
 ```java
